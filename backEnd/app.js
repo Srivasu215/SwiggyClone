@@ -18,6 +18,9 @@ app.use(cors({
 
 app.use(express.json()); // Make sure JSON parsing is enabled before routes
 app.use(cookieParser());
+
+app.use('/uploads', express.static('uploads'));
+
 // Root route
 app.get("/", (req, res) => {
     res.send("Hello");

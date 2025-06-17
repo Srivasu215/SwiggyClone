@@ -52,7 +52,7 @@ const AllProducts = () => {
                                         src={`http://localhost:9000/uploads/${item.image}`}
                                         className="card-img-top"
                                         alt={item.productname}
-                                        style={{ height: '130px', width:'80px', objectFit: 'cover' }}
+                                        style={{ height: '130px', objectFit: 'cover' }}
                                     />
                                 )}
                                 <div className="card-body">
